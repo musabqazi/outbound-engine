@@ -1,6 +1,6 @@
 <div align="center"><img src="cover.png" width="100%"></div>
 
-**[← All systems](https://github.com/musabqazi)** · [Workup Voice](https://github.com/musabqazi/workup-voice) · [Workup Chat](https://github.com/musabqazi/workup-chat) · [Workup Operator](https://github.com/musabqazi/workup-operator)
+**[← All systems](https://github.com/musabqazi)** · [Workup Voice](https://github.com/musabqazi/voice-receptionist) · [Workup Chat](https://github.com/musabqazi/whatsapp-agent) · [Workup Operator](https://github.com/musabqazi/browser-operator)
 
 # Workup Outbound — research-first AI SDR
 
