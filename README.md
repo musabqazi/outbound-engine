@@ -1,8 +1,8 @@
 <div align="center"><img src="cover.png" width="100%"></div>
 
-**[← All systems](https://github.com/musabqazi)** · [Workup Voice](https://github.com/musabqazi/voice-receptionist) · [Workup Chat](https://github.com/musabqazi/whatsapp-agent) · [Workup Operator](https://github.com/musabqazi/browser-operator)
+**[← All systems](https://github.com/musabqazi)** · [Voice Receptionist](https://github.com/musabqazi/voice-receptionist) · [WhatsApp Agent](https://github.com/musabqazi/whatsapp-agent) · [Browser Operator](https://github.com/musabqazi/browser-operator)
 
-# Workup Outbound — research-first AI SDR
+# Outbound Engine — research-first AI SDR
 
 End-to-end outbound pipeline: sourcing, enrichment, CRM dedup, per-account research with
 citations, drafted copy that a second model and a rules engine check, sending over email and
@@ -15,7 +15,7 @@ working checker playground). **Spec:** [SPEC.md](SPEC.md)
 
 ## Dashboard
 
-<img src="screenshots/01-dashboard.png" alt="Workup Outbound — research-first AI SDR dashboard" width="100%"/>
+<img src="screenshots/01-dashboard.png" alt="Outbound Engine — research-first AI SDR dashboard" width="100%"/>
 <sub>The SDR funnel: accounts sourced, researched and drafted, with the checks each message cleared before it could send.</sub>
 
 ## The problem
@@ -24,7 +24,7 @@ Outbound depends on one person; generic AI blasts burn domains; nobody can see w
 
 ## What it does
 
-1. **Source, enrich, dedup.** CSV / Apollo / Crustdata / Workup Leads. Verified email, LinkedIn,
+1. **Source, enrich, dedup.** CSV / Apollo / Crustdata / Lead Engine. Verified email, LinkedIn,
    headcount, tech. Deduped against HubSpot and prior campaigns first.
 2. **Research and score.** Firecrawl reads the site, posts, job ads and news. Sonnet writes a brief
    with numbered citations and a relevance score. Below 0.60 is dropped and never messaged.
@@ -53,4 +53,4 @@ drop decisions; adversarial checker tests. Langfuse traces every model call.
 The live demo runs on **seeded demo data** — a fictional tenant and synthetic records throughout. No client data appears in the demo or in this repository, and the implementation is private.
 
 ---
-<sub>Part of the <a href="https://github.com/musabqazi">musabqazi portfolio</a> · A <b>Workup Solutions</b> product · source private. © 2026 Musab Qazi</sub>
+<sub>Part of the <a href="https://github.com/musabqazi">musabqazi portfolio</a> · source private. © 2026 Musab Qazi</sub>
