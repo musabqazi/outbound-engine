@@ -11,7 +11,7 @@ Built under the client's own accounts.
 
 working checker playground). **Spec:** [SPEC.md](SPEC.md)
 
-🟢 **Live demo:** https://workup-outbound.vercel.app · **Source:** private, available on request
+**Source:** private, available on request
 
 ## Dashboard
 
@@ -50,7 +50,7 @@ drop decisions; adversarial checker tests. Langfuse traces every model call.
 
 ## A note on what you can see here
 
-The live demo runs on **seeded demo data** — a fictional tenant and synthetic records throughout. No client data appears in the demo or in this repository, and the implementation is private.
+Screenshots in this repository use **seeded demo data** — a fictional tenant and synthetic records throughout. No client data appears in this repository, and the implementation is private.
 
 ---
 <sub>Part of the <a href="https://github.com/musabqazi">musabqazi portfolio</a> · source private. © 2026 Musab Qazi</sub>
